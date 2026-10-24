@@ -1,0 +1,39 @@
+[
+	// Toggle Terminus Panel
+	{
+		"keys": [
+			"ctrl+`"
+		],
+		"command": "terminus_toggle",
+		"args": {
+			"config_name": "Default",
+			"panel_name": "Terminus"
+		}
+	},
+	// Open Debugger Panel
+	{
+		"keys": [
+			"f5"
+		],
+		"command": "debugger_open"
+	},
+	// LSP Navigation
+	{
+		"keys": [
+			"f12"
+		],
+		"command": "lsp_symbol_definition"
+	},
+	{
+		"keys": [
+			"shift+f12"
+		],
+		"command": "lsp_symbol_references"
+	},
+	{
+		"keys": [
+			"f2"
+		],
+		"command": "lsp_symbol_rename"
+	}
+]
