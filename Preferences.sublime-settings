@@ -1,7 +1,69 @@
 {
-	"ignored_packages":
-	[
+	"bold_folder_labels": true,
+	"caret_style": "smooth",
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns": [
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		".directory",
+		"desktop.ini",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns": [
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".Trash",
+		".Trash-*"
+	],
+	"font_options": [
+		"gdi"
+	],
+	"font_size": 10,
+	"highlight_line": true,
+	"ignored_packages": [],
+	"indent_guide_options": [
+		"draw_normal",
+		"draw_active"
 	],
 	"index_files": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"rulers": [
+		[
+			100,
+			"stippled"
+		]
+	],
+	"sidebar_on_right": true,
+	"spell_check": true,
+	"tab_size": 2,
 	"color_scheme": "ayu-light.sublime-color-scheme",
+	"file_icon_theme": "A File Icon (Mono).sublime-file-icons",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": "all",
+	"ui_scale": 1.0,
+	"vintage_ctrl_keys": true,
+	"vintage_use_clipboard": true,
+	"vintage_start_in_command_mode": true,
+	"hardware_acceleration": "opengl"
 }
