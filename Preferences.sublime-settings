@@ -63,8 +63,9 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": "all",
 	"ui_scale": 1.0,
+	"show_git_status": true,
 	"vintage_ctrl_keys": true,
 	"vintage_use_clipboard": true,
 	"vintage_start_in_command_mode": true,
-	"hardware_acceleration": "opengl",
+	"hardware_acceleration": "opengl"
 }

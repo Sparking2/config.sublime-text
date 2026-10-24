@@ -1,39 +1,20 @@
 [
-	// Toggle Terminus Panel
-	{
-		"keys": [
-			"ctrl+`"
-		],
-		"command": "terminus_toggle",
-		"args": {
-			"config_name": "Default",
-			"panel_name": "Terminus"
-		}
-	},
-	// Open Debugger Panel
-	{
-		"keys": [
-			"f5"
-		],
-		"command": "debugger_open"
-	},
-	// LSP Navigation
-	{
-		"keys": [
-			"f12"
-		],
-		"command": "lsp_symbol_definition"
-	},
-	{
-		"keys": [
-			"shift+f12"
-		],
-		"command": "lsp_symbol_references"
-	},
-	{
-		"keys": [
-			"f2"
-		],
-		"command": "lsp_symbol_rename"
-	}
+  // Integrated Terminal (Terminus)
+  { "keys": ["ctrl+`"], "command": "terminus_toggle", "args": { "panel_name": "Terminus", "config_name": "Default" } },
+
+  // Debugger (DAP standard keybindings)
+  { "keys": ["f5"], "command": "debugger_open" },
+  { "keys": ["f9"], "command": "debugger_toggle_breakpoint" },
+  { "keys": ["f10"], "command": "debugger_step_over" },
+  { "keys": ["f11"], "command": "debugger_step_into" },
+  { "keys": ["shift+f11"], "command": "debugger_step_out" },
+
+  // LSP Navigation & Actions
+  { "keys": ["f12"], "command": "lsp_symbol_definition" },
+  { "keys": ["shift+f12"], "command": "lsp_symbol_references" },
+  { "keys": ["f2"], "command": "lsp_symbol_rename" },
+  { "keys": ["ctrl+."], "command": "lsp_code_actions" },
+  { "keys": ["alt+enter"], "command": "lsp_code_actions" },
+  { "keys": ["ctrl+k", "ctrl+i"], "command": "lsp_hover" },
+  { "keys": ["ctrl+shift+m"], "command": "lsp_toggle_server_panel", "args": { "which": "diagnostics" } }
 ]
