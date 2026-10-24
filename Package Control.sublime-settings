@@ -2,8 +2,12 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AutoFileName",
 		"ayu",
+		"BracketHighlighter",
 		"Debugger",
+		"DocBlockr",
+		"GitGutter",
 		"LSP",
 		"LSP-clangd",
 		"LSP-css",
@@ -16,8 +20,10 @@
 		"LSP-OmniSharp",
 		"LSP-rust-analyzer",
 		"LSP-typescript",
+		"Origami",
 		"Package Control",
 		"SideBarEnhancements",
+		"SublimeLinter",
 		"Terminus",
 	],
 	"in_process_packages":
