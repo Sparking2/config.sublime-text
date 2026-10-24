@@ -2,7 +2,11 @@
 	"installed_packages":
 	[
 		"ayu",
+		"Debugger",
+		"LSP",
+		"LSP-file-watcher-chokidar",
 		"Package Control",
+		"Terminus",
 	],
 	"in_process_packages":
 	[
