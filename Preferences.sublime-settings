@@ -2,6 +2,6 @@
 	"ignored_packages":
 	[
 	],
-	"index_files": true,
+	"index_files": false,
 	"color_scheme": "ayu-light.sublime-color-scheme",
 }
